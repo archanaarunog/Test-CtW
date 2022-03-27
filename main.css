@@ -1,15 +1,21 @@
 :root {
-    --green: #00FF00;
+    --green: #dfebdb;
     --white: #ffffff;
-    --black: #000000;
+    --black: #aba7ec;
   }
   * {
     color: var(--fontColor);
     font-family: helvetica;
   }
   body {
-      background: var(--bg);
+    background-image: url("pic1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
   }
+  /* body {
+      background: var(--bg);
+  } */
 
 ul {
     font-family: helvetica;
@@ -34,4 +40,4 @@ li {
     --bg: var(--black);
     --fontColor: var(--green);
   }
-
+ 
