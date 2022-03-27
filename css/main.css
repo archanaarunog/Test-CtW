@@ -1,0 +1,43 @@
+:root {
+    --green: #dfebdb;
+    --white: #ffffff;
+    --black: #aba7ec;
+  }
+  * {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  body {
+    background-image: url("pic1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+  }
+  /* body {
+      background: var(--bg);
+  } */
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  /* #msg {
+    font-family: monospace;
+  } */
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+  }
+ 

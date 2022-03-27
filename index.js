@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 var path = require('path')
-app.use(express.static(path.join(__dirname, 'main.css')));
+app.use(express.static(path.join(__dirname, 'css')));
 
 
 app.get("/", function(req,res)
