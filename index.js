@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, '/css')));
 
 app.get("/", function(req,res)
 {
-    res.sendFile(__dirname + "/" + "index.html");
+    res.sendFile(__dirname + "/" + "code/index.html");
     //res.sendFile(__dirname + "/" + "main.html");
     //res.send("This is the second edit")
 })
